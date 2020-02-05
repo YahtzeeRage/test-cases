@@ -1,1 +1,3 @@
-# test-cases
+# Test cases for CS450 homeworks
+
+**ONLY PUT TEST CASES HERE, NO SOLUTIONS OR IMPLEMENTATION DETAILS**
