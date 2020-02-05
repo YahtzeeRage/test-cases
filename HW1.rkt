@@ -14,6 +14,7 @@
 (check-true (lambda? '(lambda (x y z) z y x)))
 (check-false (lambda? '(lambda (x 1) x)))
 (check-false (lambda? '(lambda (x))))
+(check-true (lambda? '(lambda () 3)))
 (check-false (lambda? '3))
 
 (check-equal? '(x) (lambda-params '(lambda (x) y)))
